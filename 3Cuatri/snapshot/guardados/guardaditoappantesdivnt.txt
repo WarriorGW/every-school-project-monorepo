@@ -1,0 +1,60 @@
+import logo from "./img/snapshot.webp";
+import "./App.css";
+import Boton from "./components/Boton";
+import Imagen from "./components/Imagen";
+import ImagenWProps from "./components/ImagenWProps";
+
+export default function App() {
+	return (
+		<div>
+			<div className="contenedor">
+				<Imagen nomImage={logo} textoImagen={""} />
+			</div>
+
+			{/* <img className="img-logo" src={logo} alt="Logo" /> */}
+
+			<div className="contenedor busqueda">
+				<input type="search"></input>
+				<Boton textoBoton="Buscar" />
+			</div>
+
+			<div className="contenedor">
+				<div className="catalogo">
+					<ImagenWProps nomImage="anya" textoImagen={"Anya"} />
+					<ImagenWProps nomImage="chibi" textoImagen={"Mona cabezona"} />
+					<ImagenWProps nomImage="corona" textoImagen={"Corona"} />
+					<ImagenWProps nomImage="creeper" textoImagen={"Creeperewe"} />
+					<ImagenWProps nomImage="discord" textoImagen={"Dicsord"} />
+				</div>
+				<div className="catalogo">
+					<ImagenWProps nomImage="lobo" textoImagen={"Lobito"} />
+					<ImagenWProps nomImage="monitos" textoImagen={"Abashooo"} />
+					<ImagenWProps nomImage="nadador" textoImagen={"Nadador"} />
+					<ImagenWProps
+						nomImage="nubeyluna"
+						textoImagen={"Nubecita y lunita"}
+					/>
+					<ImagenWProps nomImage="panda" textoImagen={"Panda"} />
+				</div>
+				<div className="catalogo">
+					<ImagenWProps
+						nomImage="planetita"
+						textoImagen={"Planeta con plantita"}
+					/>
+					<ImagenWProps nomImage="tao" textoImagen={"Hu tao"} />
+					<ImagenWProps
+						nomImage="zerotier"
+						textoImagen={"Sepa pero va, ahi dice Tier Zero"}
+					/>
+					<ImagenWProps nomImage="itachieye" textoImagen={"El ojo de itachi"} />
+					<ImagenWProps
+						nomImage="estrella"
+						textoImagen={
+							"Estrellita donde estas, yo muy bien y tu que tal?, esta tiene un texto enorme a ver que pasa uwu"
+						}
+					/>
+				</div>
+			</div>
+		</div>
+	);
+}

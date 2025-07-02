@@ -1,0 +1,40 @@
+.contenedor {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.catalogo {
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.busqueda {
+	margin: 1vh 3vh 3vh 3vh;
+}
+
+.busqueda input,
+button {
+	height: 4.4vh;
+	margin: 0.5vh 1.4vh;
+}
+
+.busqueda button {
+	background-color: #d8c4b6;
+	border-style: none;
+	border-radius: 5px;
+}
+
+.busqueda button:hover {
+	background-color: #967e76;
+	cursor: pointer;
+}
+
+.busqueda input {
+	width: 45vh;
+	background-color: #4f709c;
+	border-style: none;
+	border-radius: 5px;
+	color: #ffead2;
+	padding-left: 1.2vh;
+}

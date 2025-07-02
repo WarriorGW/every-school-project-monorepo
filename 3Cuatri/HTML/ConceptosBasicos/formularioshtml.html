@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Formulario</title>
+		<link rel="stylesheet" href="formularioshtmlstyle.css" />
+	</head>
+	<body>
+		<h1>Ejemplo de formulario</h1>
+		<fieldset>
+			<legend>Formulario ejemplo</legend>
+			<form action="#" method="get">
+				<!-- Campos de texto -->
+				<label for="nombre">Nombre:</label>
+				<input
+					type="text"
+					id="nombre"
+					name="nombre"
+					placeholder="Ingresa tu nombre"
+					oninput="this.value = this.value.toUpperCase()"
+					autofocus
+					required
+				/>
+				<br /><br />
+				<label for="correo">Correo electronico:</label>
+				<input
+					type="email"
+					id="correo"
+					placeholder="Ingresa un correo"
+					required
+				/>
+				<br /><br />
+
+				<label for="edad">Edad:</label>
+				<input
+					type="number"
+					id="edad"
+					placeholder="Ingresa tu nombre"
+					min="1"
+					max="120"
+				/>
+				<br /><br />
+
+				<label for="contra">Contraseña</label>
+				<input
+					type="password"
+					id="contra"
+					placeholder="Ingresar la contraseña"
+					required
+				/>
+				<br /><br />
+
+				<label for="fecha">Fecha:</label>
+				<input type="date" id="fecha" required />
+				<br /><br />
+
+				<label for="pais">País:</label>
+				<select name="selectpais" id="	pais">
+					<option value="" aria-readonly="true">Seleccionar</option>
+					<option value="">Mexico</option>
+					<option value="">EUA</option>
+					<option value="">Canada</option>
+					<option value="">Australia</option>
+					<option value="">Francia</option>
+				</select>
+				<br /><br />
+
+				<label for="acepto">Acepto los términos y condiciones</label>
+				<input type="checkbox" id="acepto" required />
+				<br /><br />
+
+				<label for="colorpick">Selecciona el color:</label>
+				<input type="color" id="colorpick" />
+				<br /><br />
+
+				<button type="submit">Enviar</button>
+				<br /><br />
+
+				<label for="buscar">Buscar</label>
+				<input type="search" id="buscar" />
+			</form>
+		</fieldset>
+	</body>
+</html>

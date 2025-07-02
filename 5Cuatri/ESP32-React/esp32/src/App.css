@@ -1,0 +1,12 @@
+.message {
+	@apply w-64;
+	background-color: #f3f4f6;
+	color: #333;
+	padding: 10px;
+	border-radius: 8px;
+	margin-top: 20px;
+}
+
+.message p {
+	@apply font-bold text-xl;
+}

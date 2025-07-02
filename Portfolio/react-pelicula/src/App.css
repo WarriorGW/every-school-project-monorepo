@@ -1,0 +1,49 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 800px;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.error {
+	text-align: center;
+	color: red;
+	font-size: 14px;
+	line-height: 0;
+}
+
+.movies {
+	list-style: none;
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 32px;
+}
+
+.movies > li {
+	text-align: center;
+}
+
+.movies > li > h3,
+.movies > li > p {
+	margin: 0;
+}
+
+.movies > li > img {
+	border-radius: 8px;
+	margin-top: 8px;
+}

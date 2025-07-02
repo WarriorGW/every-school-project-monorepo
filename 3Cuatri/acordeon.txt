@@ -1,0 +1,79 @@
+Obvio antes de todo esto, tener instalado lts de node.js
+
+Ir a terminal en vscode y para crear app de react usar:
+	npx create-react-app
+
+Si no te jala usa
+	npm install -g npx
+
+Despues ahora si intenta el npx anterior
+
+A continuacion dejare los comandos de algunos complementos para react uwu:
+
+1. Para mejorar los mensajes de alerta de js
+	npm install sweetalert2
+
+2. Para dar algunas animaciones cuando carga un elemento:
+	npm install aos
+
+3. Para algunas otras animaciones de carga de pagina se usa animate css:
+	npm install animate.css
+
+4. Para tener boostrap:
+	npm install bootstrap@5.3.0
+
+5. Como complemento de bootstrap, esta Popper, sirve para agregar tooltips, si quieres saber mas buscalo tu >:c:
+	npm i @popperjs/core
+
+6. Para hacer un slider aca bien chido:
+	npm install react-slick
+
+7. Otro slider que parece chido es:
+	npm install react-alice-carousel
+
+8. Un carousel que vi en un video del yutus:
+	npm i swiper
+
+9. Para mejorar los formularios usar Formik:
+	npm i formik
+
+####  Nota: Todo esto se hace dentro de la carpeta donde se ejecuta el comando npm start, osea la carpeta que almacena public, src, etc.
+
+Para el back-end anexo algunas librerias que son utiles que de mismo modo se instalan dentro de la misma carpeta:
+
+1. Para asignar valores automaticos de ser requerido a los ID's:
+	npm install uniqid
+
+2. Hacer peticiones por medio de http, osea conectarme al backend:
+	npm install axios
+
+3. Para poder utilizar diferentes rutas, asi como en html se hace el <a> pero para react:
+	npm i react-router-dom
+
+
+############################# Back-End #############################
+
+Listare algunas herramientas para usar en conjunnto con MongoDB:
+
+1. Parse incoming request bodies in a middleware before your handlers, available under the req.body property:
+	npm i body-parser
+
+2. Para usar express:
+	npm install express
+
+3. Para poder conectarte con MongoDB se necesita:
+	npm install mongoose
+
+4. Para que al lanzar el server se actualice automaticamente:
+	npm install nodemon
+
+5. Para poder usar mysql usamos:
+	npm i mysql2
+	npm i express
+	npm i morgan
+	npm i nodemon
+
+6. Para que se puedan comunicar entre servidores se usa:
+	npm i cors
+
+####  Nota: Estos comandos se tienen que utilizar una carpeta arriba de la carpeta en la que esta albergado React.

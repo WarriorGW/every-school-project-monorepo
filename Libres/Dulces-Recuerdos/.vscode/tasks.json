@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Development Server",
+      "type": "shell",
+      "command": "sh",  // Use 'sh' for a more portable shell command
+      "args": [
+        "-c",  // Use the -c flag to pass the following command to the shell
+        "cd update && npm run dev"  // Combine commands with &&
+      ],
+      "problemMatcher": "$tsc-watch",  // Suppress default error/warning matching
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always"  // Optionally, reveal the terminal panel automatically
+      }
+    }
+  ]
+}

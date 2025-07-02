@@ -1,0 +1,40 @@
+body {
+	background-color: #fae588;
+	text-align: center;
+	overflow-x: hidden;
+}
+
+.street {
+	position: relative;
+	top: 10vh;
+	z-index: 2;
+}
+
+.rectangle {
+	position: absolute;
+	width: 100%;
+	height: 50vh;
+	left: 0px;
+	top: 220vh;
+	background: #3f3d56;
+}
+
+.elipse1 {
+	position: absolute;
+	width: 120vh;
+	height: 120vh;
+	left: 130vh;
+	top: 17vh;
+	border-radius: 100%;
+	background: #ffe97f;
+}
+
+.elipse2 {
+	position: absolute;
+	width: 120vh;
+	height: 120vh;
+	left: -30vh;
+	top: 137vh;
+	background: #ffe97f;
+	border-radius: 100%;
+}
